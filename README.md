@@ -2,6 +2,77 @@
 
 Ce projet est un **portfolio interactif** qui met en avant mes compétences en analyse de données, Machine Learning, et SQL, en utilisant Streamlit pour visualiser les résultats.
 
+# Projet Data Décisionnel en Assurance
+
+## Objectifs
+
+### Automatiser l'analyse des données assurantielles :
+- Identifier les contrats rentables et les zones à risque.
+- Suivre les indicateurs clés de performance (KPI).
+
+### Faciliter la prise de décision :
+- Créer des tableaux de bord interactifs pour les équipes métiers.
+- Mettre en évidence les tendances et anomalies dans les données.
+
+### Prédire le comportement des clients :
+- Utiliser un modèle de machine learning pour anticiper le renouvellement des contrats.
+
+---
+
+## Méthodologie
+
+### Collecte et Simulation des Données :
+- Données sur les clients, contrats, sinistres, et paiements.
+- Organisation des données dans des tables relationnelles.
+
+### Exploration et Analyse :
+- Requêtes SQL pour extraire des insights sur les sinistres par région et par type.
+- Analyse des renouvellements de contrats et des performances financières.
+
+### Modélisation Machine Learning :
+- Entraînement d’un modèle de régression logistique pour prédire le renouvellement des contrats.
+- Évaluation du modèle avec des métriques (précision, rappel, matrice de confusion).
+
+### Visualisations Interactives :
+- Création de tableaux de bord avec Streamlit pour explorer les données en temps réel.
+- Intégration de filtres dynamiques pour personnaliser les analyses par région, type de contrat, ou période.
+
+---
+
+## Résultats
+
+### Visualisations SQL :
+- Répartition des sinistres par région et type, avec identification des régions les plus coûteuses.
+- Taux de renouvellement par type de contrat.
+
+### Prédictions Machine Learning :
+- Précision de 85% sur les prédictions de renouvellement des contrats.
+- Mise en évidence des facteurs influençant le renouvellement, comme l'âge du client ou le montant annuel.
+
+### Tableaux de Bord :
+- Tableau de bord interactif pour les KPI décisionnels.
+- Comparaison des revenus et des objectifs atteints par région.
+
+---
+
+## Outils et Technologies
+
+- **SQL** : Extraction et analyse des données relationnelles.
+- **Python** : Modélisation et création de l'application Streamlit.
+- **Pandas & NumPy** : Manipulation et traitement des données.
+- **Scikit-learn** : Machine Learning.
+- **Matplotlib** : Visualisation statique.
+- **Streamlit** : Tableau de bord interactif.
+
+---
+
+## Impact
+
+- Automatisation des analyses assurantielles pour un gain de temps significatif.
+- Identification rapide des zones à améliorer (contrats peu rentables, sinistres élevés).
+- Meilleure compréhension des comportements des clients grâce aux prédictions.
+
+
 ## Fonctionnalités
 
 ### 1. **Visualisations SQL**
